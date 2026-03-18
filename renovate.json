@@ -3,7 +3,7 @@
   "extends": [
     "config:recommended"
   ],
-  "schedule": ["after 10pm every weekday"],
+  "schedule": ["after 08am every weekday"],
   "timezone": "Europe/Berlin",
   "prConcurrentLimit": 3,
   "packageRules": [
