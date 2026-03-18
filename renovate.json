@@ -10,7 +10,7 @@
     },
     {
       "matchPackageNames": ["axios"],
-      "matchUpdateTypes": ["patch"],
+      "matchUpdateTypes": ["minor"],
       "enabled": true
     }
   ]
