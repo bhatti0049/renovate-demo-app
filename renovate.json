@@ -3,10 +3,14 @@
   "extends": [
     "config:recommended"
   ],
+  "schedule": ["after 10pm every weekday"],
+  "timezone": "Europe/Berlin",
+  "prConcurrentLimit": 3,
   "packageRules": [
     {
-      "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "non-major updates",
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["patch"],
+      "groupName": "dev dependencies (patch)",
       "automerge": true,
       "automergeType": "pr"
     },
